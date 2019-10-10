@@ -5,7 +5,7 @@
 
 #import "YunQiniuUploadHelper.h"
 #import "YunQiniuUploadConfig.h"
-#import "QNResolver.h"
+//#import "QNResolver.h"
 #import "YunQiniuDefine.h"
 #import "YunQiniuFileModel.h"
 
@@ -52,8 +52,8 @@
         }
 
         QNConfiguration *cfg = [QNConfiguration build:^(QNConfigurationBuilder *builder) {
-            NSMutableArray *paras = [[NSMutableArray alloc] init];
-            [paras addObject:[QNResolver systemResolver]];
+//            NSMutableArray *paras = [[NSMutableArray alloc] init];
+//            [paras addObject:[QNResolver systemResolver]];
 
             //QNDnsManager *dns = [[QNDnsManager alloc] init:paras networkInfo:[QNNetworkInfo normal]];
 
